@@ -1,0 +1,292 @@
+@import "variables";
+@import "animations";
+
+.technology {
+  margin-bottom: 90px;
+
+  &--outer {
+    @media (min-width: $tablet) {
+      margin-bottom: 130px;
+    }
+
+    @media (min-width: $desktop) {
+      margin-bottom: 150px;
+    }
+  }
+
+  &__container {
+    @include mc-width;
+
+    @media (min-width: $tablet) {
+      width: $tablet;
+    }
+
+    @media (min-width: $desktop) {
+      width: $dc-width;
+    }
+  }
+
+  &__title {
+    position: relative;
+    @include mc-width;
+
+    font-family: $ff-dbold;
+    font-size: $fs-b;
+    line-height: $lh-b - 9;
+    text-transform: uppercase;
+
+    @media (min-width: $tablet) {
+      font-size: $fs-b + 19;
+      line-height: $lh-b + 15;
+    }
+
+    @media (min-width: $desktop) {
+      width: 380px;
+      margin: 0;
+      margin-left: 123px;
+    }
+  }
+
+  &__img {
+    object-fit: cover;
+    object-position: top;
+    width: 320px;
+    height: 277px;
+
+    @media (min-width: $tablet) {
+      width: 768px;
+      height: 546px;
+    }
+
+    @media (min-width: $desktop) {
+
+      width: 1294px;
+      height: 546px;
+    }
+  }
+
+  &__details-container {
+    position: relative;
+  }
+
+  &__details {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+
+    background-color: #0db2b3;
+    border: none;
+    border-radius: 50%;
+    z-index: 2;
+
+    outline: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #131313;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 11px;
+      height: 11px;
+
+      background-image: url(../img/cross_button.svg);
+      background-position: center;
+    }
+
+    &--first {
+      top: 105px;
+      left: 35px;
+
+      @media (min-width: $tablet) {
+        top: 230px;
+        left: 90px;
+      }
+    }
+
+    &--second {
+      top: 180px;
+      left: 115px;
+
+      @media (min-width: $tablet) {
+        top: 370px;
+        left: 280px;
+      }
+    }
+
+    &--third {
+      top: 130px;
+      left: 160px;
+
+      @media (min-width: $tablet) {
+        top: 300px;
+        left: 350px;
+      }
+    }
+
+    &--fourth {
+      top: 50px;
+      left: 175px;
+
+      @media (min-width: $tablet) {
+        top: 150px;
+        left: 415px;
+      }
+    }
+
+    &--five {
+      top: 210px;
+      left: 240px;
+
+      @media (min-width: $tablet) {
+        top: 430px;
+        left: 510px;
+      }
+    }
+
+    &--six {
+      display: none;
+
+      @media (min-width: $tablet) {
+        display: block;
+        top: 180px;
+        left: 650px;
+      }
+    }
+
+    &--seven {
+      display: none;
+
+      @media (min-width: $desktop) {
+        display: block;
+        top: 325px;
+        left: 790px;
+      }
+    }
+
+    &--eight {
+      display: none;
+
+      @media (min-width: $desktop) {
+        display: block;
+        top: 180px;
+        left: 940px;
+      }
+    }
+
+    &--nine {
+      display: none;
+
+      @media (min-width: $desktop) {
+        display: block;
+        top: 90px;
+        left: 1065px;
+      }
+    }
+
+    &--ten {
+      display: none;
+
+      @media (min-width: $desktop) {
+        display: block;
+        top: 220px;
+        left: 1130px;
+      }
+    }
+
+    &--eleven {
+      display: none;
+
+      @media (min-width: $desktop) {
+        display: block;
+        top: 170px;
+        left: 1180px;
+      }
+    }
+  }
+
+  &__scrolling {
+    margin-top: -35px;
+    margin-bottom: 90px;
+
+    @media (min-width: $tablet) {
+      margin-bottom: 162px;
+    }
+
+    @media (min-width: $desktop) {
+      display: none;
+    }
+  }
+
+  &__review {
+    position: relative;
+    margin: 0 auto 40px;
+
+    font-family: $ff-dbold;
+    text-align: center;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/citate.svg);
+      background-repeat: no-repeat;
+      width: 208px;
+      height: 171px;
+
+      top: -15%;
+      left: 10%;
+    }
+
+    @media (min-width: $tablet) {
+      width: 700px;
+
+      font-size: $fs + 10;
+      line-height: $lh + 15;
+
+      &::after {
+        width: 233px;
+        height: 191px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &__review-photo {
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  &__review-author {
+    margin: 0 0 7px;
+
+    font-family: $ff-hmedium;
+    font-size: $fs + 2;
+    line-height: $lh + 6;
+    text-align: center;
+
+    @media (min-width: $tablet) {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__review-position {
+    margin: 0;
+    text-align: center;
+
+    font-family: $ff-hlight;
+    line-height: $lh - 4;
+    color: #7c7c7c;
+  }
+}

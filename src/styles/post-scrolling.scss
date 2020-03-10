@@ -1,0 +1,74 @@
+@import "variables";
+
+.post-scrolling {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__nav {
+    width: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__left {
+    display: block;
+    background-image: url(../img/scroll_left.svg);
+    width: 48px;
+    height: 13px;
+
+    cursor: pointer;
+
+    &:hover {
+      background-image: url(../img/left_hover.svg);
+    }
+  }
+
+  &__right {
+    margin-left: -5px;
+    display: block;
+    background-image: url(../img/scroll_right.svg);
+    width: 48px;
+    height: 13px;
+
+    cursor: pointer;
+
+    &:hover {
+      background-image: url(../img/right_hover.svg);
+    }
+  }
+
+  &__change {
+    font-family: $ff-d;
+    font-size: $fs + 2;
+    line-height: $lh - 1;
+
+    color: $text-color;
+  }
+
+  &__static {
+    font-family: $ff-d;
+    font-size: $fs - 3;
+    line-height: $lh - 7;
+
+    color: #bdbdbd;
+  }
+
+  &__advantages {
+    margin-bottom: 80px;
+
+    @media (min-width: $tablet) {
+      display: none;
+    }
+  }
+
+  &__feautures {
+    @media (min-width: $tablet) {
+      display: none;
+    }
+  }
+}

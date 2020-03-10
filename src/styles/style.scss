@@ -1,0 +1,80 @@
+@import "variables";
+@import "container";
+@import "button";
+@import "header";
+@import "navigation";
+@import "content";
+@import "advantages";
+@import "video";
+@import "post-scrolling";
+@import "about-us";
+@import "technology";
+@import "feautures";
+@import "question";
+@import "footer";
+@import "cart";
+@import "product-card";
+@import "buy";
+@import "form";
+@import "shipping";
+@import "payment";
+@import "thanks";
+@import "animations";
+@import "visually-hidden";
+
+@font-face {
+  font-family: $ff-h;
+  src: url("/fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: $ff-hlight;
+  src: url("/fonts/HelveticaNeueCyr-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: $ff-hmedium;
+  src: url("/fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: $ff-d;
+  src: url("/fonts/DINPro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: $ff-dbold;
+  src: url("/fonts/DINPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: $ff-db;
+  src: url("/fonts/DINPro-Black.woff2") format("woff2");
+}
+
+html {
+  @include font-standard;
+  color: $text-color;
+}
+
+body {
+  margin: 0 auto;
+  width: 320px;
+  background-color: #f7f7f7;
+}
+
+@media(min-width: $tablet) {
+  body {
+    width: $tablet;
+  }
+}
+
+@media(min-width: $desktop) {
+  body {
+    width: $desktop;
+  }
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,113 @@
+@import "variables";
+@import "container";
+
+.question {
+  margin-bottom: 100px;
+
+  &__outer {
+    @media (min-width: $tablet) {
+      margin-bottom: 130px;
+    }
+
+    @media (min-width: $desktop) {
+      margin-bottom: 142px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: $ff-dbold;
+    font-size: $fs-b;
+    line-height: $lh-b - 9;
+
+    @media (min-width: $tablet) {
+      margin: 0;
+      width: 340px;
+      justify-self: center;
+
+      font-size: $fs-b + 19;
+      line-height: $lh-b + 15;
+    }
+
+    @media (min-width: $desktop) {
+      width: 480px;
+      line-height: $lh-b + 17;
+    }
+  }
+
+  &__form-input {
+    width: 260px;
+    box-sizing: border-box;
+    border: 1px solid #828282;
+
+    background-color: #f7f7f7;
+
+    @media (min-width: $tablet) {
+      width: 340px;
+      height: 201px;
+    }
+
+    @media (min-width: $desktop) {
+      width: 438px;
+      height: 128px;
+    }
+  }
+
+  &__form-input::placeholder {
+    color: #b2b2b2;
+  }
+
+  &__form-input--email {
+    height: 48px;
+    margin-bottom: 19px;
+    padding: 0 30px;
+
+    font-size: $fs + 2;
+    line-height: $lh - 2;
+    outline: none;
+
+    &:valid {
+      border: 1px solid #0c797a;
+    }
+
+    &:invalid:focus {
+      border: 1px solid #eb5757;
+    }
+
+    @media (min-width: $tablet) {
+      height: 48px;
+    }
+
+    @media (min-width: $desktop) {
+      height: 48px;
+    }
+  }
+
+  &__message {
+    height: 128px;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 16px 30px;
+
+    font-family: $ff-h;
+    font-size: $fs + 2;
+    line-height: $lh - 2;
+  }
+
+  &__container {
+    @media (min-width: $tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, 384px);
+    }
+
+    @media (min-width: $desktop) {
+      width: $dc-width;
+      grid-template-columns: 480px 438px;
+      gap: 0 102px;
+
+      &--outer {
+        margin-left: 225px;
+      }
+    }
+  }
+}

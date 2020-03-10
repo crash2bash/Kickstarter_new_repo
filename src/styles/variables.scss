@@ -1,0 +1,43 @@
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1440px;
+$mc-width: 260px;
+$tc-width: 700px;
+$dc-width: 1194px;
+
+$ff-h: "Helvetica";
+$ff-hmedium: "Helvetica Medium";
+$ff-hlight: "Helvetica Light";
+$ff-db: "Din Black";
+$ff-dbold: "Din Bold";
+$ff-d: "Din";
+$fs: 14px;
+$fs-desktop: 64px;
+$fs-b: 37px;
+$lh: 21px;
+$lh-desktop: 83px;
+$lh-b: 55px;
+
+$text-color: #333;
+
+@mixin font-standard {
+  font-family: $ff-h;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin mc-width {
+  width: $mc-width;
+  margin: 0 auto;
+}
+
+@mixin centeredItemsInGridTablet {
+  margin: 0;
+  margin-right: 19px;
+  justify-self: end;
+}
