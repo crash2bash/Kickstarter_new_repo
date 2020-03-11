@@ -1,0 +1,19 @@
+.video {
+  position: relative; }
+  .video--outer {
+    margin-bottom: 89px; }
+  .video__link {
+    cursor: auto; }
+  .video__container {
+    width: 1440px;
+    margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .video--outer {
+    margin-bottom: 130px; } }
+
+@media (min-width: 1440px) {
+  .video--outer {
+    margin-bottom: 150px; } }
+
+/*# sourceMappingURL=video.css.map */

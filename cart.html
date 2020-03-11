@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Crazybaby</title>
+</head>
+
+<body>
+  <main>
+    <nav class="navigation navigation--inner">
+      <a href="#" class="cart__logo-container logo-link">
+        <img src="./images/logo.svg"
+            class="logo header__logo cart__logo"
+            alt="Crazybaby_logo"
+            width="161"
+            height="26">
+      </a>
+      <a href="index.html" class="cart__close"></a>
+    </nav>
+    <section class="cart cart--buy">
+      <div class="buy buy--outer buy--cart">
+        <div class="buy__waypoint">
+          <span class="buy__dot buy__dot--active"></span>
+          <span class="buy__point buy__point--active">CART</span>
+        </div>
+
+        <div class="buy__waypoint">
+          <span class="buy__dot"></span>
+          <span class="buy__point">SHIPPING</span>
+        </div>
+
+        <div class="buy__waypoint">
+          <span class="buy__dot"></span>
+          <span class="buy__point ">PAYMENT</span>
+        </div>
+      </div>
+      <div class="cart__container cart__container--outer">
+        <div class="cart__product">
+          <h3 class="cart__title">LUNA EYE</h3>
+          <picture>
+            <source media="(min-width: 1440px)" srcset="./images/cartimage_large.png">
+            <source media="(min-width: 768px)" srcset="./images/cartimage_medium.png">
+            <source media="(min-width: 320px)" srcset="./images/cartimage.png">
+            <img src="./images/cartimage_large.png" class="cart__img" alt="Our technology">
+          </picture>
+          <p class="cart__price">$129.00</p>
+          <div class="cart__color-container cart__color-container--outer">
+            <label class="cart__radio cart__radio--silver cart__radio--active">
+              <input type="radio" class="cart__color-choose"
+                    name="color" value="silver">
+            </label>
+
+            <label class="cart__radio cart__radio--grey">
+              <input type="radio" class="cart__color-choose"
+                    name="color" value="grey">
+            </label>
+
+            <label class="cart__radio cart__radio--bronze">
+              <input type="radio" class="cart__color-choose"
+                    name="color" value="bronze">
+            </label>
+
+            <label class="cart__radio cart__radio--gold">
+            <input type="radio" class="cart__color-choose"
+                  name="color" value="gold">
+            </label>
+
+            <label class="cart__radio cart__radio--space">
+            <input type="radio" class="cart__color-choose"
+                  name="color" value="space">
+            </label>
+          </div>
+          <p class="cart__color-signature cart__color-signature--outer">Silver</p>
+          <div class="cart__amount cart__amount--outer">
+            <span class="cart__price-down"></span>
+            <input type="number" class="cart__value" value="1" min="1" max="10" readonly>
+            <span class="cart__price-up"></span>
+          </div>
+          <button class="button button--cart button--cart--outer">add TO CARD</button>
+          <p class="cart__shipping-info">
+            Free Shipping + Free Returns
+          </p>
+        </div>
+
+        <div class="cart__basket product-card product-card--outer product-card--gold">
+          <span class="product-card__close product-card__close--gold"></span>
+          <img src="./images/gold_sound.png" class="product-card__photo" alt="Gold speaker">
+          <div class="product-card__container">
+            <p class="product-card__color">
+              <span class="product-card__def">Color: </span>
+              <span class="product-card__color-value">Gold</span>
+            </p>
+            <div class="cart__amount product-card__amount">
+              <span class="cart__price-down"></span>
+              <input type="number"
+                    class="cart__value product-card__value"
+                    value="1"
+                    min="1"
+                    max="10"
+                    readonly>
+              <span class="cart__price-up"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart__order">
+          <p class="cart__order-summary">Order Summary</p>
+          <p class="cart__total">Total:</p>
+          <p class="cart__order-price">$129.00</p>
+          <a href="shipping.html"
+             class="button button__order button__order--center button__order--pseudo button__order--outer">
+            CONTINUE
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="#" class="logo-link footer__logo-link footer__logo-link--outer">
+        <img class="logo footer__logo" src="./images/logo.svg" alt="Crazybaby_logo" width="161" height="26">
+      </a>
+      <ul class="footer__socials footer__socials--outer">
+        <li class="footer__faceebok">
+          <a class="footer__faceebok-link">
+            <img src="./images/facebook.svg" alt="Facebook" width="11" height="19">
+          </a>
+          <a class="visually-hidden">Facebook</a>
+        </li>
+        <li class="footer__twitter">
+          <a class="footer__twitter-link">
+            <img src="./images/twitter.svg" alt="Twitter" width="22" height="17">
+          </a>
+          <a class="visually-hidden">Twitter</a>
+        </li>
+        <li class="footer__Instagram">
+          <a class="footer__instagram-link">
+            <img src="./images/instagram.svg" alt="Instagram" width="18" height="18">
+          </a>
+          <a class="visually-hidden">Instagram</a>
+        </li>
+      </ul>
+      <p class="footer__rights">
+        © 2019 All rights reserved. Terms of Use & Privacy Policy
+      </p>
+    </div>
+  </footer>
+
+  <button class="button button--fixed"></button>
+  <button class="button button--up"></button>
+
+  <script src="./scripts/cart.js"></script>
+</body>
+</html>

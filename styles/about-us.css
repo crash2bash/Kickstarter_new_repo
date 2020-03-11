@@ -1,0 +1,100 @@
+.about-us {
+  margin-bottom: 97px; }
+  @media (min-width: 768px) {
+    .about-us {
+      margin-bottom: 198px; } }
+  .about-us__container {
+    width: 260px;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .about-us__container {
+        width: 768px;
+        display: grid;
+        grid-template-columns: repeat(2, 374px);
+        grid-template-rows: 144px 146px 15px;
+        gap: 35px 20px; } }
+    @media (min-width: 1440px) {
+      .about-us__container {
+        width: 1194px;
+        grid-template-columns: 582px 378px;
+        grid-template-rows: 144px 123px 15px; } }
+  .about-us__title {
+    margin-bottom: 50px;
+    font-family: "Din Bold", sans-serif;
+    font-size: 37px;
+    line-height: 55px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .about-us__title {
+        width: 430px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin: 0 0 0 -90px;
+        font-size: 56px;
+        line-height: 77px;
+        z-index: 1; } }
+  .about-us__img {
+    display: block;
+    width: 259px;
+    height: 210px;
+    margin-bottom: 29px; }
+    @media (min-width: 768px) {
+      .about-us__img {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin: 0;
+        width: 374px;
+        height: 415px; } }
+    @media (min-width: 1440px) {
+      .about-us__img {
+        width: 582px;
+        height: 388px; } }
+  .about-us__text {
+    margin-bottom: 30px;
+    color: #7c7c7c; }
+    @media (min-width: 768px) {
+      .about-us__text {
+        width: 340px;
+        margin: 0;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        font-size: 16px;
+        line-height: 24px; } }
+    @media (min-width: 1440px) {
+      .about-us__text {
+        width: 378px; } }
+  .about-us__link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0db2b3;
+    outline: none; }
+    .about-us__link::after {
+      content: "";
+      position: absolute;
+      width: 23%;
+      height: 1px;
+      top: 110%;
+      left: 0;
+      background-color: #0db2b3;
+      -webkit-transition: width 0.5s ease-in-out;
+      transition: width 0.5s ease-in-out; }
+    .about-us__link:hover::after, .about-us__link:active::after, .about-us__link:focus::after {
+      width: 56%; }
+    @media (min-width: 768px) {
+      .about-us__link {
+        width: 127px;
+        grid-column-start: 2;
+        grid-row-start: 3;
+        margin: 0;
+        font-family: "Helvetica Medium", sans-serif;
+        font-size: 12px;
+        line-height: 15px; }
+        .about-us__link::after {
+          width: 54px;
+          top: 120%; }
+        .about-us__link:hover::after, .about-us__link:active::after, .about-us__link:focus::after {
+          width: 100%; } }
+
+/*# sourceMappingURL=about-us.css.map */

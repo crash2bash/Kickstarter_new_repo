@@ -1,0 +1,96 @@
+.container {
+  width: 260px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .container {
+      width: 768px; } }
+  @media (min-width: 1440px) {
+    .container {
+      width: 1440px; } }
+
+.question {
+  margin-bottom: 100px; }
+  @media (min-width: 768px) {
+    .question__outer {
+      margin-bottom: 130px; } }
+  @media (min-width: 1440px) {
+    .question__outer {
+      margin-bottom: 142px; } }
+  .question__title {
+    margin-bottom: 30px;
+    font-family: "Din Bold", sans-serif;
+    font-size: 37px;
+    line-height: 46px; }
+    @media (min-width: 768px) {
+      .question__title {
+        margin: 0;
+        width: 340px;
+        justify-self: center;
+        font-size: 56px;
+        line-height: 70px; } }
+    @media (min-width: 1440px) {
+      .question__title {
+        width: 480px;
+        line-height: 72px; } }
+  .question__form-input {
+    width: 260px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #828282;
+    background-color: #f7f7f7; }
+    @media (min-width: 768px) {
+      .question__form-input {
+        width: 340px;
+        height: 201px; } }
+    @media (min-width: 1440px) {
+      .question__form-input {
+        width: 438px;
+        height: 128px; } }
+  .question__form-input::-webkit-input-placeholder {
+    color: #b2b2b2; }
+  .question__form-input::-moz-placeholder {
+    color: #b2b2b2; }
+  .question__form-input:-ms-input-placeholder {
+    color: #b2b2b2; }
+  .question__form-input::-ms-input-placeholder {
+    color: #b2b2b2; }
+  .question__form-input::placeholder {
+    color: #b2b2b2; }
+  .question__form-input--email {
+    height: 48px;
+    margin-bottom: 19px;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 19px;
+    outline: none; }
+    .question__form-input--email:valid {
+      border: 1px solid #0c797a; }
+    .question__form-input--email:invalid:focus {
+      border: 1px solid #eb5757; }
+    @media (min-width: 768px) {
+      .question__form-input--email {
+        height: 48px; } }
+    @media (min-width: 1440px) {
+      .question__form-input--email {
+        height: 48px; } }
+  .question__message {
+    height: 128px;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 16px 30px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 19px; }
+  @media (min-width: 768px) {
+    .question__container {
+      display: grid;
+      grid-template-columns: repeat(2, 384px); } }
+  @media (min-width: 1440px) {
+    .question__container {
+      width: 1194px;
+      grid-template-columns: 480px 438px;
+      gap: 0 102px; }
+      .question__container--outer {
+        margin-left: 225px; } }
+
+/*# sourceMappingURL=question.css.map */
