@@ -61,20 +61,12 @@ body {
   margin: 0 auto;
   width: 320px;
   background-color: #f7f7f7;
-}
 
-@media(min-width: $tablet) {
-  body {
+  @media(min-width: $tablet) {
     width: $tablet;
   }
-}
 
-@media(min-width: $desktop) {
-  body {
+  @media(min-width: $desktop) {
     width: $desktop;
   }
-}
-
-.hide {
-  display: none;
 }

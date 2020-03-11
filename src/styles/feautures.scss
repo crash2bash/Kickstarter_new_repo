@@ -1,10 +1,5 @@
 @import "variables";
 
-.mobile-content {
-  width: $mc-width;
-  margin: 0 auto;
-}
-
 .feautures {
   width: $mobile;
   margin-bottom: 45px;
@@ -48,6 +43,9 @@
   }
 
   &__container {
+    width: $mc-width;
+    margin: 0 auto;
+
     @media (min-width: $tablet) {
       width: $tablet;
     }
@@ -213,8 +211,4 @@
       z-index: 1;
     }
   }
-}
-
-.post-scrolling__feautures {
-  margin-bottom: 8px;
 }

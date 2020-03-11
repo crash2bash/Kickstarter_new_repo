@@ -3,16 +3,12 @@
 .container {
   width: $mc-width;
   margin: 0 auto;
-}
 
-@media (min-width: 768px) {
-  .container {
+  @media (min-width: 768px) {
     width: $tablet;
   }
-}
 
-@media (min-width: $desktop) {
-  .container {
+  @media (min-width: $desktop) {
     width: $desktop;
   }
 }
