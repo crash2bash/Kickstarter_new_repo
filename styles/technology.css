@@ -434,6 +434,10 @@
       height: 11px;
       background-image: url(../images/cross_button.svg);
       background-position: center; }
+    .technology__details--active {
+      background-image: url(../images/linetechnology.svg);
+      background-repeat: no-repeat;
+      background-position: center; }
     .technology__details--first {
       top: 105px;
       left: 35px; }
@@ -528,7 +532,7 @@
     .technology__review::after {
       content: "";
       position: absolute;
-      background-image: url(../img/citate.svg);
+      background-image: url(../images/citate.svg);
       background-repeat: no-repeat;
       width: 208px;
       height: 171px;

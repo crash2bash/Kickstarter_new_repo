@@ -102,12 +102,13 @@
       .button--cart {
         width: 174px; } }
   .button__order {
-    width: 120px;
+    width: 160px;
     height: 49px;
     margin: 0;
     padding: 17px 28px;
     background-color: #333;
     color: #fff;
+    text-align: center;
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
     .button__order--center {
@@ -119,10 +120,10 @@
     @media (min-width: 768px) {
       .button__order {
         position: relative;
-        width: 174px;
+        width: 160px;
         height: 48px;
         margin: 0;
-        padding: 17px 55px;
+        padding: 17px 29px;
         grid-row-start: 7; }
         .button__order--pseudo::after {
           content: "";
@@ -135,6 +136,9 @@
                   transform: translate(0, -100%);
           margin-left: -49px;
           background-color: #e0e0e0; } }
+  @media (min-width: 768px) and (min-width: 1194px) {
+    .button__order {
+      width: 174px; } }
   @media (min-width: 768px) {
     .button--form {
       width: 160px; } }
