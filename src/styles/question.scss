@@ -5,11 +5,11 @@
   margin-bottom: 100px;
 
   &__outer {
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin-bottom: 130px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       margin-bottom: 142px;
     }
   }
@@ -20,7 +20,7 @@
     font-size: $fs-b;
     line-height: $lh-b - 9;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin: 0;
       width: 340px;
       justify-self: center;
@@ -29,7 +29,7 @@
       line-height: $lh-b + 15;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 480px;
       line-height: $lh-b + 17;
     }
@@ -42,12 +42,12 @@
 
     background-color: #f7f7f7;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 340px;
       height: 201px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 438px;
       height: 128px;
     }
@@ -74,11 +74,11 @@
       border: 1px solid #eb5757;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       height: 48px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       height: 48px;
     }
   }
@@ -95,13 +95,13 @@
   }
 
   &__container {
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: grid;
       grid-template-columns: repeat(2, 384px);
     }
 
-    @media (min-width: $desktop) {
-      width: $dc-width;
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
       grid-template-columns: 480px 438px;
       gap: 0 102px;
 

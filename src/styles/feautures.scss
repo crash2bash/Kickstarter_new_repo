@@ -1,13 +1,13 @@
 @import "variables";
 
 .feautures {
-  width: $mobile;
+  width: $mobile-width;
   margin-bottom: 45px;
   padding: 45px 0;
   background-color: #f2f2f2;
 
-  @media (min-width: $tablet) {
-    width: $tablet;
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
     position: relative;
     padding: 0;
     background-color: #f7f7f7;
@@ -24,8 +24,8 @@
     }
   }
 
-  @media (min-width: $desktop) {
-    width: $desktop;
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
 
     &::after {
       width: 1113px;
@@ -37,21 +37,21 @@
   }
 
   &__outer {
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin-bottom: 145px;
     }
   }
 
   &__container {
-    width: $mc-width;
+    width: $mobile-content-width;
     margin: 0 auto;
 
-    @media (min-width: $tablet) {
-      width: $tablet;
+    @media (min-width: $tablet-width) {
+      width: $tablet-width;
     }
 
-    @media (min-width: $desktop) {
-      width: $dc-width;
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
     }
   }
 
@@ -62,7 +62,7 @@
     font-size: $fs-b;
     text-transform: uppercase;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       font-size: $fs-b + 19;
       line-height: $lh-b + 15;
       margin: 0 0 50px 50px;
@@ -77,14 +77,14 @@
     @include reset;
     list-style: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: grid;
       grid-template-columns: 384px 384px;
       grid-template-rows: 256px 50px 256px 70px 1fr;
       z-index: 1;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       display: grid;
       grid-template-columns: 500px 500px;
     }
@@ -99,18 +99,18 @@
 
     color: #0c797a;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       font-size: $fs-b - 3;
       line-height: $lh * 2;
       margin: 0 0 38px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       line-height: $lh-b - 14;
     }
 
     &--outer {
-      @media (min-width: $desktop) {
+      @media (min-width: $desktop-width) {
         margin-bottom: 38px;
       }
     }
@@ -127,19 +127,19 @@
     margin-bottom: 50px;
 
     &--grid-first {
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         grid-column-start: 2;
         margin: 0;
         z-index: 1;
       }
 
-      @media (min-width: $desktop) {
+      @media (min-width: $desktop-width) {
         z-index: 2;
       }
     }
 
     &--grid-second {
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         grid-row-start: 3;
         justify-self: end;
         margin: 0;
@@ -147,7 +147,7 @@
         z-index: 2;
       }
 
-      @media (min-width: $desktop) {
+      @media (min-width: $desktop-width) {
         grid-row-start: 2;
         justify-self: center;
         margin: 0;
@@ -157,7 +157,7 @@
     }
 
     &--grid-third {
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         grid-row-start: 5;
         grid-column-start: 2;
         margin-top: -10px;
@@ -165,7 +165,7 @@
         z-index: 2;
       }
 
-      @media (min-width: $desktop) {
+      @media (min-width: $desktop-width) {
         margin-top: 0;
         margin-left: -185px;
         z-index: 2;
@@ -176,13 +176,13 @@
   &__inner-list-item {
     margin-bottom: 10px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       font-family: $ff-h;
       font-size: $fs + 2;
       line-height: $lh - 2;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       line-height: $lh + 3;
     }
   }
@@ -191,7 +191,7 @@
     width: 320px;
     height: 222px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       position: absolute;
       top: 65%;
       left: 100%;
@@ -202,7 +202,7 @@
       z-index: 1;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 786px;
       height: 509px;
       top: 80%;

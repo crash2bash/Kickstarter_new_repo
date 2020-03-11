@@ -7,11 +7,11 @@
   justify-content: space-between;
   align-items: center;
 
-  @media (min-width: $tablet) {
+  @media (min-width: $tablet-width) {
     width: 430px;
   }
 
-  @media (min-width: $desktop) {
+  @media (min-width: $desktop-width) {
     width: 460px;
   }
 
@@ -22,7 +22,7 @@
   &--cart {
     display: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: flex;
     }
   }
@@ -34,13 +34,13 @@
     top: 6px;
     left: 10px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 165px;
       top: 7px;
       left: 27px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 189px;
       left: 19px;
     }
@@ -48,7 +48,7 @@
     &--second {
       left: 12px;
 
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         left: 27px;
       }
     }
@@ -58,12 +58,12 @@
       left: auto;
       right: 31px;
 
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         width: 185px;
         right: 44px;
       }
 
-      @media (min-width: $desktop) {
+      @media (min-width: $desktop-width) {
         width: 189px;
         right: 50px;
       }
@@ -85,7 +85,7 @@
     background-position: center;
     background-size: cover;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 12px;
       height: 12px;
     }
@@ -93,7 +93,7 @@
     &--use {
       background-image: url(/img/dot_use.svg);
 
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         width: 12px;
         height: 12px;
       }
@@ -104,7 +104,7 @@
       height: 12px;
       background-image: url(/img/dot_active.svg);
 
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         width: 16px;
         height: 16px;
       }
@@ -120,7 +120,7 @@
 
     color: #d0d0d0;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       font-size: 16px;
       line-height: 20px;
     }

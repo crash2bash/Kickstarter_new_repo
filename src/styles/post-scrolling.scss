@@ -61,7 +61,7 @@
   &__advantages {
     margin-bottom: 80px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: none;
     }
   }
@@ -70,7 +70,7 @@
 
     margin-bottom: 8px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: none;
     }
   }

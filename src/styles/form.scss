@@ -17,11 +17,11 @@
     border-bottom: 1px solid #bdbdbd;
     outline: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 340px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 378px;
     }
 
@@ -61,7 +61,7 @@
     text-decoration: none;
     color: #4f4f4f;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       font-family: $ff-h;
       line-height: 14px;
     }

@@ -2,8 +2,8 @@
 
 .content {
 
-  @media (min-width: $tablet) {
-    width: $tc-width;
+  @media (min-width: $tablet-width) {
+    width: $tablet-content-width;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 303px 400px;
@@ -11,18 +11,18 @@
     gap: 34px 0;
   }
 
-  @media (min-width: $desktop) {
-    width: $dc-width;
+  @media (min-width: $desktop-width) {
+    width: $desktop-content-width;
     grid-template-columns: 378px 939px;
     grid-template-rows: 249px 96px;
   }
 
   &--outer {
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin-bottom: 217px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       margin-bottom: 132px;
     }
   }
@@ -32,7 +32,7 @@
     width: 320px;
     height: 245px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 483px;
       height: 365px;
       grid-column-start: 2;
@@ -40,7 +40,7 @@
       margin-left: -52px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       margin: 0;
       margin-bottom: -10px;
       align-self: end;
@@ -62,7 +62,7 @@
     text-align: center;
     color: $text-color;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       grid-column-start: 1;
       grid-row-start: 1;
       margin: 0;
@@ -71,14 +71,14 @@
       text-align: left;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       font-size: $fs-desktop;
       line-height: $lh-desktop;
     }
   }
 
   &__text {
-    width: $mc-width;
+    width: $mobile-content-width;
     margin: 0 auto 187px;
 
     font-size: $fs + 2;
@@ -87,14 +87,14 @@
     text-align: center;
     color: $text-color;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       grid-row-start: 2;
       width: 250px;
       margin: 0 0 0 5px;
       text-align: left;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 276px;
     }
   }

@@ -6,32 +6,32 @@
   &--outer {
     margin-bottom: 90px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin-bottom: 130px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       margin-bottom: 150px;
     }
   }
 
-  @media (min-width: $tablet) {
-    width: $tablet;
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
   }
 
-  @media (min-width: $desktop) {
-    width: $desktop;
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
   }
 
   &__form {
-    width: $mc-width;
+    width: $mobile-content-width;
     margin: 0 auto;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 340px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 378px;
     }
   }

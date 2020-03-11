@@ -1,14 +1,14 @@
 @import "variables";
 
 .container {
-  width: $mc-width;
+  width: $mobile-content-width;
   margin: 0 auto;
 
   @media (min-width: 768px) {
-    width: $tablet;
+    width: $tablet-width;
   }
 
-  @media (min-width: $desktop) {
-    width: $desktop;
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
   }
 }

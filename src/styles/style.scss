@@ -53,8 +53,10 @@
 }
 
 html {
-  @include font-standard;
-  color: $text-color;
+  font-family: $ff-h;
+  font-size: 14px;
+  line-height: 21px;
+  color: "Helvetica";
 }
 
 body {
@@ -62,11 +64,11 @@ body {
   width: 320px;
   background-color: #f7f7f7;
 
-  @media(min-width: $tablet) {
-    width: $tablet;
+  @media(min-width: $tablet-width) {
+    width: $tablet-width;
   }
 
-  @media(min-width: $desktop) {
-    width: $desktop;
+  @media(min-width: $desktop-width) {
+    width: $desktop-width;
   }
 }

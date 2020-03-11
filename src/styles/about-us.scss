@@ -3,23 +3,23 @@
 .about-us {
   margin-bottom: 97px;
 
-  @media (min-width: $tablet) {
+  @media (min-width: $tablet-width) {
     margin-bottom: 198px;
   }
 
   &__container {
     @include mc-width;
 
-    @media (min-width: $tablet) {
-      width: $tablet;
+    @media (min-width: $tablet-width) {
+      width: $tablet-width;
       display: grid;
       grid-template-columns: repeat(2, 374px);
       grid-template-rows: 144px 146px 15px;
       gap: 35px 20px;
     }
 
-    @media (min-width: $desktop) {
-      width: $dc-width;
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
       grid-template-columns: 582px 378px;
       grid-template-rows: 144px 123px 15px;
     }
@@ -34,7 +34,7 @@
 
     text-transform: uppercase;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 430px;
       grid-column-start: 2;
       grid-row-start: 1;
@@ -52,7 +52,7 @@
     height: 210px;
     margin-bottom: 29px;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       grid-column-start: 1;
       grid-row-start: 1;
       margin: 0;
@@ -60,7 +60,7 @@
       height: 415px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 582px;
       height: 388px;
     }
@@ -71,7 +71,7 @@
 
     color: #7c7c7c;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 340px;
       margin: 0;
       grid-column-start: 2;
@@ -81,7 +81,7 @@
       line-height: $lh + 3;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       width: 378px;
     }
   }
@@ -116,7 +116,7 @@
       }
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 127px;
       grid-column-start: 2;
       grid-row-start: 3;

@@ -3,19 +3,19 @@
 .advantages {
   margin-bottom: 89px;
 
-  @media (min-width: $tablet) {
+  @media (min-width: $tablet-width) {
     margin-bottom: 130px;
   }
 
   &__container {
     @include mc-width;
 
-    @media (min-width: $tablet) {
-      width: $tc-width;
+    @media (min-width: $tablet-width) {
+      width: $tablet-content-width;
     }
 
-    @media (min-width: $desktop) {
-      width: $dc-width;
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
     }
   }
 
@@ -25,13 +25,13 @@
 
     list-style: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: grid;
       grid-template-columns: 340px 340px;
       gap: 155px 20px;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       grid-template-columns: repeat(4, 276px);
       gap: 0 30px;
     }
@@ -69,14 +69,14 @@
       margin-bottom: 0;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: grid;
       grid-template-rows: 30px 105px;
       gap: 20px 0;
       margin: 0;
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop-width) {
       display: grid;
       grid-template-rows: 30px 126px;
       gap: 50px 0;
@@ -95,12 +95,12 @@
     text-transform: uppercase;
     color: $text-color;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       // margin: 0 0 20px 0;
       margin: 0;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin: 0;
     }
   }
@@ -109,7 +109,7 @@
     text-align: center;
     color: #7c7c7c;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       margin: 0;
     }
   }

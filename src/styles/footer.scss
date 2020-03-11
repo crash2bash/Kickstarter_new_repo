@@ -2,20 +2,20 @@
 
 .footer {
 
-  @media (min-width: $tablet) {
+  @media (min-width: $tablet-width) {
     margin-bottom: 50px;
   }
 
   &__logo-link {
     display: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       display: block;
       text-align: center;
     }
 
     &--outer {
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         margin-bottom: 65px;
       }
     }
@@ -30,14 +30,14 @@
     margin-bottom: 23px;
     list-style: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       width: 140px;
       justify-content: space-between;
       margin: 0 auto;
     }
 
     &--outer {
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet-width) {
         margin-bottom: 36px;
       }
     }
@@ -50,7 +50,7 @@
 
     color: #bdbdbd;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet-width) {
       font-size: $fs;
     }
   }
