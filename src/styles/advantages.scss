@@ -45,7 +45,7 @@
       position: absolute;
       content: "";
 
-      background-image: url(../img/futuristic_design.svg);
+      background-image: url(../images/futuristic_design.svg);
       width: 58px;
       height: 46px;
 
@@ -54,15 +54,15 @@
     }
 
     &--speaker::before {
-      background-image: url(../img/speaker.svg);
+      background-image: url(../images/speaker.svg);
     }
 
     &--multiroom::before {
-      background-image: url(../img/multiroom.svg);
+      background-image: url(../images/multiroom.svg);
     }
 
     &--lighting::before {
-      background-image: url(../img/lighting.svg);
+      background-image: url(../images/lighting.svg);
     }
 
     &:last-child {

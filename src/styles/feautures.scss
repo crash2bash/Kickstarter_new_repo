@@ -142,17 +142,14 @@
       @media (min-width: $tablet-width) {
         grid-row-start: 3;
         justify-self: end;
-        margin: 0;
-        margin-right: 23px;
+        margin: 0 23px 0 0;
         z-index: 2;
       }
 
       @media (min-width: $desktop-width) {
         grid-row-start: 2;
         justify-self: center;
-        margin: 0;
-        margin-left: 30px;
-        margin-top: 5px;
+        margin: 5px 0 0 30px;
       }
     }
 

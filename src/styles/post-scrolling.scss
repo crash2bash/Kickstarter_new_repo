@@ -17,28 +17,28 @@
 
   &__left {
     display: block;
-    background-image: url(../img/scroll_left.svg);
+    background-image: url(../images/scroll_left.svg);
     width: 48px;
     height: 13px;
 
     cursor: pointer;
 
     &:hover {
-      background-image: url(../img/left_hover.svg);
+      background-image: url(../images/left_hover.svg);
     }
   }
 
   &__right {
     margin-left: -5px;
     display: block;
-    background-image: url(../img/scroll_right.svg);
+    background-image: url(../images/scroll_right.svg);
     width: 48px;
     height: 13px;
 
     cursor: pointer;
 
     &:hover {
-      background-image: url(../img/right_hover.svg);
+      background-image: url(../images/right_hover.svg);
     }
   }
 

@@ -12,8 +12,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
-    margin-bottom: 22px;
+    margin: 0 auto 22px;
 
     @media (min-width: $tablet-width) {
       width: 700px;
@@ -41,7 +40,7 @@
     width: 24px;
     height: 14px;
 
-    background-image: url(/img/sandwhich.svg);
+    background-image: url(../images/sandwhich.svg);
     background-repeat: no-repeat;
 
     cursor: pointer;
@@ -61,7 +60,7 @@
     width: 24px;
     height: 14px;
 
-    background-image: url(../img/cross_icon.png);
+    background-image: url(../images/cross_icon.png);
     background-repeat: no-repeat;
     background-position: center;
 

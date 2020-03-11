@@ -42,8 +42,7 @@
 
     @media (min-width: $desktop-width) {
       width: 380px;
-      margin: 0;
-      margin-left: 123px;
+      margin: 0 0 0 123px;
     }
   }
 
@@ -98,7 +97,7 @@
       width: 11px;
       height: 11px;
 
-      background-image: url(../img/cross_button.svg);
+      background-image: url(../images/cross_button.svg);
       background-position: center;
     }
 
