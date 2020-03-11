@@ -101,6 +101,12 @@
       background-position: center;
     }
 
+    &--active {
+      background-image: url(../images/linetechnology.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
     &--first {
       top: 105px;
       left: 35px;
@@ -235,7 +241,7 @@
     &::after {
       content: "";
       position: absolute;
-      background-image: url(../img/citate.svg);
+      background-image: url(../images/citate.svg);
       background-repeat: no-repeat;
       width: 208px;
       height: 171px;

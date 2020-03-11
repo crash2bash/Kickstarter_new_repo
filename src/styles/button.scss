@@ -142,13 +142,14 @@
   }
 
   &__order {
-    width: 120px;
+    width: 160px;
     height: 49px;
     margin: 0;
     padding: 17px 28px;
 
     background-color: #333;
     color: #fff;
+    text-align: center;
     transition: 0.3s ease-in-out;
 
     &--center {
@@ -166,10 +167,10 @@
 
     @media (min-width: $tablet-width) {
       position: relative;
-      width: 174px;
+      width: 160px;
       height: 48px;
       margin: 0;
-      padding: 17px 55px;
+      padding: 17px 29px;
       grid-row-start: 7;
 
       &--pseudo::after {
@@ -184,6 +185,10 @@
         margin-left: -49px;
 
         background-color: #e0e0e0;
+      }
+
+      @media (min-width: $desktop-content-width) {
+        width: 174px;
       }
     }
   }
