@@ -1139,6 +1139,13 @@
         height: 546px; } }
   .technology__details-container {
     position: relative; }
+  .technology__caption {
+    position: absolute;
+    background-image: url(../images/linetechnology.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 205px;
+    height: 173px; }
   .technology__details {
     position: absolute;
     width: 48px;
@@ -1162,10 +1169,6 @@
       width: 11px;
       height: 11px;
       background-image: url(../images/cross_button.svg);
-      background-position: center; }
-    .technology__details--active {
-      background-image: url(../images/linetechnology.svg);
-      background-repeat: no-repeat;
       background-position: center; }
     .technology__details--first {
       top: 105px;
