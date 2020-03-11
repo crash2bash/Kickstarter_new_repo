@@ -32,17 +32,17 @@
     .advantages__list-item::before {
       position: absolute;
       content: "";
-      background-image: url(../img/futuristic_design.svg);
+      background-image: url(../images/futuristic_design.svg);
       width: 58px;
       height: 46px;
       margin-top: -90px;
       left: 42%; }
     .advantages__list-item--speaker::before {
-      background-image: url(../img/speaker.svg); }
+      background-image: url(../images/speaker.svg); }
     .advantages__list-item--multiroom::before {
-      background-image: url(../img/multiroom.svg); }
+      background-image: url(../images/multiroom.svg); }
     .advantages__list-item--lighting::before {
-      background-image: url(../img/lighting.svg); }
+      background-image: url(../images/lighting.svg); }
     .advantages__list-item:last-child {
       margin-bottom: 0; }
     @media (min-width: 768px) {

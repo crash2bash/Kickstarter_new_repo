@@ -231,8 +231,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 auto;
-  margin-bottom: 22px; }
+  margin: 0 auto 22px; }
   @media (min-width: 768px) {
     .header__container {
       width: 700px; } }
@@ -255,7 +254,7 @@
           box-sizing: border-box;
   width: 24px;
   height: 14px;
-  background-image: url(/img/sandwhich.svg);
+  background-image: url(../images/sandwhich.svg);
   background-repeat: no-repeat;
   cursor: pointer; }
   @media (min-width: 768px) {
@@ -272,7 +271,7 @@
   padding: 15px;
   width: 24px;
   height: 14px;
-  background-image: url(../img/cross_icon.png);
+  background-image: url(../images/cross_icon.png);
   background-repeat: no-repeat;
   background-position: center; }
   @media (min-width: 768px) {
@@ -496,17 +495,17 @@
     .advantages__list-item::before {
       position: absolute;
       content: "";
-      background-image: url(../img/futuristic_design.svg);
+      background-image: url(../images/futuristic_design.svg);
       width: 58px;
       height: 46px;
       margin-top: -90px;
       left: 42%; }
     .advantages__list-item--speaker::before {
-      background-image: url(../img/speaker.svg); }
+      background-image: url(../images/speaker.svg); }
     .advantages__list-item--multiroom::before {
-      background-image: url(../img/multiroom.svg); }
+      background-image: url(../images/multiroom.svg); }
     .advantages__list-item--lighting::before {
-      background-image: url(../img/lighting.svg); }
+      background-image: url(../images/lighting.svg); }
     .advantages__list-item:last-child {
       margin-bottom: 0; }
     @media (min-width: 768px) {
@@ -589,21 +588,21 @@
             align-items: center; }
   .post-scrolling__left {
     display: block;
-    background-image: url(../img/scroll_left.svg);
+    background-image: url(../images/scroll_left.svg);
     width: 48px;
     height: 13px;
     cursor: pointer; }
     .post-scrolling__left:hover {
-      background-image: url(../img/left_hover.svg); }
+      background-image: url(../images/left_hover.svg); }
   .post-scrolling__right {
     margin-left: -5px;
     display: block;
-    background-image: url(../img/scroll_right.svg);
+    background-image: url(../images/scroll_right.svg);
     width: 48px;
     height: 13px;
     cursor: pointer; }
     .post-scrolling__right:hover {
-      background-image: url(../img/right_hover.svg); }
+      background-image: url(../images/right_hover.svg); }
   .post-scrolling__change {
     font-family: "Din", sans-serif;
     font-size: 16px;
@@ -743,22 +742,22 @@
   display: block; }
 
 .arrow-right--disable {
-  background-image: url(../img/scroll_right_disable.svg); }
+  background-image: url(../images/scroll_right_disable.svg); }
   .arrow-right--disable:hover {
-    background-image: url(../img/scroll_right_disable.svg);
+    background-image: url(../images/scroll_right_disable.svg);
     cursor: default; }
 
 .arrow-right--enable {
-  background-image: url(../img/scroll_right.svg); }
+  background-image: url(../images/scroll_right.svg); }
 
 .arrow-left--disable {
-  background-image: url(../img/scroll_left.svg); }
+  background-image: url(../images/scroll_left.svg); }
   .arrow-left--disable:hover {
-    background-image: url(../img/scroll_left.svg);
+    background-image: url(../images/scroll_left.svg);
     cursor: default; }
 
 .arrow-left--enable {
-  background-image: url(../img/scroll_left_enable.svg); }
+  background-image: url(../images/scroll_left_enable.svg); }
 
 @-webkit-keyframes show {
   0% {
@@ -1118,8 +1117,7 @@
     @media (min-width: 1440px) {
       .technology__title {
         width: 380px;
-        margin: 0;
-        margin-left: 123px; } }
+        margin: 0 0 0 123px; } }
   .technology__img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -1159,7 +1157,7 @@
               transform: translate(-50%, -50%);
       width: 11px;
       height: 11px;
-      background-image: url(../img/cross_button.svg);
+      background-image: url(../images/cross_button.svg);
       background-position: center; }
     .technology__details--first {
       top: 105px;
@@ -1400,16 +1398,13 @@
       .feautures__list-item--grid-second {
         grid-row-start: 3;
         justify-self: end;
-        margin: 0;
-        margin-right: 23px;
+        margin: 0 23px 0 0;
         z-index: 2; } }
     @media (min-width: 1440px) {
       .feautures__list-item--grid-second {
         grid-row-start: 2;
         justify-self: center;
-        margin: 0;
-        margin-left: 30px;
-        margin-top: 5px; } }
+        margin: 5px 0 0 30px; } }
     @media (min-width: 768px) {
       .feautures__list-item--grid-third {
         grid-row-start: 5;
@@ -1717,8 +1712,7 @@
       .cart__price {
         font-family: "Din Bold", sans-serif;
         line-height: 36px;
-        margin: 0;
-        margin-bottom: 54px; } }
+        margin: 0 0 54px; } }
     @media (min-width: 1440px) {
       .cart__price {
         line-height: 30px; } }
@@ -1957,7 +1951,7 @@ input::-webkit-inner-spin-button {
     right: 21px;
     width: 12px;
     height: 12px;
-    background-image: url(../img/cross_icon.png);
+    background-image: url(../images/cross_icon.png);
     background-repeat: no-repeat;
     cursor: pointer; }
   .product-card__photo {
@@ -2075,7 +2069,7 @@ input::-webkit-inner-spin-button {
     margin: 0 auto 10px;
     width: 8px;
     height: 8px;
-    background-image: url(/img/dot_disable.svg);
+    background-image: url(../images/dot_disable.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
@@ -2084,7 +2078,7 @@ input::-webkit-inner-spin-button {
         width: 12px;
         height: 12px; } }
     .buy__dot--use {
-      background-image: url(/img/dot_use.svg); }
+      background-image: url(../images/dot_use.svg); }
       @media (min-width: 768px) {
         .buy__dot--use {
           width: 12px;
@@ -2092,7 +2086,7 @@ input::-webkit-inner-spin-button {
     .buy__dot--active {
       width: 12px;
       height: 12px;
-      background-image: url(/img/dot_active.svg); }
+      background-image: url(../images/dot_active.svg); }
       @media (min-width: 768px) {
         .buy__dot--active {
           width: 16px;
@@ -2369,7 +2363,7 @@ input::-webkit-inner-spin-button {
 
 .thanks {
   width: 320px;
-  background-image: url(/img/thamks.svg);
+  background-image: url(../images/thamks.svg);
   background-position: center;
   background-size: cover; }
   @media (min-width: 768px) {
@@ -2445,22 +2439,22 @@ input::-webkit-inner-spin-button {
   display: block; }
 
 .arrow-right--disable {
-  background-image: url(../img/scroll_right_disable.svg); }
+  background-image: url(../images/scroll_right_disable.svg); }
   .arrow-right--disable:hover {
-    background-image: url(../img/scroll_right_disable.svg);
+    background-image: url(../images/scroll_right_disable.svg);
     cursor: default; }
 
 .arrow-right--enable {
-  background-image: url(../img/scroll_right.svg); }
+  background-image: url(../images/scroll_right.svg); }
 
 .arrow-left--disable {
-  background-image: url(../img/scroll_left.svg); }
+  background-image: url(../images/scroll_left.svg); }
   .arrow-left--disable:hover {
-    background-image: url(../img/scroll_left.svg);
+    background-image: url(../images/scroll_left.svg);
     cursor: default; }
 
 .arrow-left--enable {
-  background-image: url(../img/scroll_left_enable.svg); }
+  background-image: url(../images/scroll_left_enable.svg); }
 
 @keyframes show {
   0% {
@@ -2666,27 +2660,27 @@ input::-webkit-inner-spin-button {
 
 @font-face {
   font-family: "Helvetica";
-  src: url("/fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"); }
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Helvetica Light";
-  src: url("/fonts/HelveticaNeueCyr-Light.woff2") format("woff2"); }
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Helvetica Medium";
-  src: url("/fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"); }
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Din";
-  src: url("/fonts/DINPro-Regular.woff2") format("woff2"); }
+  src: url("../fonts/DINPro-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Din Bold";
-  src: url("/fonts/DINPro-Bold.woff2") format("woff2"); }
+  src: url("../fonts/DINPro-Bold.woff2") format("woff2"); }
 
 @font-face {
   font-family: "Din Black";
-  src: url("/fonts/DINPro-Black.woff2") format("woff2"); }
+  src: url("../fonts/DINPro-Black.woff2") format("woff2"); }
 
 html {
   font-family: "Helvetica", sans-serif;

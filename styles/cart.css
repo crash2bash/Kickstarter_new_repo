@@ -116,8 +116,7 @@
       .cart__price {
         font-family: "Din Bold", sans-serif;
         line-height: 36px;
-        margin: 0;
-        margin-bottom: 54px; } }
+        margin: 0 0 54px; } }
     @media (min-width: 1440px) {
       .cart__price {
         line-height: 30px; } }

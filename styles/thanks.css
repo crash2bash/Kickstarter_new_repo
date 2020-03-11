@@ -1,6 +1,6 @@
 .thanks {
   width: 320px;
-  background-image: url(/img/thamks.svg);
+  background-image: url(../images/thamks.svg);
   background-position: center;
   background-size: cover; }
   @media (min-width: 768px) {

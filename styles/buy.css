@@ -63,7 +63,7 @@
     margin: 0 auto 10px;
     width: 8px;
     height: 8px;
-    background-image: url(/img/dot_disable.svg);
+    background-image: url(../images/dot_disable.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
@@ -72,7 +72,7 @@
         width: 12px;
         height: 12px; } }
     .buy__dot--use {
-      background-image: url(/img/dot_use.svg); }
+      background-image: url(../images/dot_use.svg); }
       @media (min-width: 768px) {
         .buy__dot--use {
           width: 12px;
@@ -80,7 +80,7 @@
     .buy__dot--active {
       width: 12px;
       height: 12px;
-      background-image: url(/img/dot_active.svg); }
+      background-image: url(../images/dot_active.svg); }
       @media (min-width: 768px) {
         .buy__dot--active {
           width: 16px;

@@ -17,22 +17,22 @@
   display: block; }
 
 .arrow-right--disable {
-  background-image: url(../img/scroll_right_disable.svg); }
+  background-image: url(../images/scroll_right_disable.svg); }
   .arrow-right--disable:hover {
-    background-image: url(../img/scroll_right_disable.svg);
+    background-image: url(../images/scroll_right_disable.svg);
     cursor: default; }
 
 .arrow-right--enable {
-  background-image: url(../img/scroll_right.svg); }
+  background-image: url(../images/scroll_right.svg); }
 
 .arrow-left--disable {
-  background-image: url(../img/scroll_left.svg); }
+  background-image: url(../images/scroll_left.svg); }
   .arrow-left--disable:hover {
-    background-image: url(../img/scroll_left.svg);
+    background-image: url(../images/scroll_left.svg);
     cursor: default; }
 
 .arrow-left--enable {
-  background-image: url(../img/scroll_left_enable.svg); }
+  background-image: url(../images/scroll_left_enable.svg); }
 
 @-webkit-keyframes show {
   0% {

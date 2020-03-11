@@ -27,21 +27,21 @@
             align-items: center; }
   .post-scrolling__left {
     display: block;
-    background-image: url(../img/scroll_left.svg);
+    background-image: url(../images/scroll_left.svg);
     width: 48px;
     height: 13px;
     cursor: pointer; }
     .post-scrolling__left:hover {
-      background-image: url(../img/left_hover.svg); }
+      background-image: url(../images/left_hover.svg); }
   .post-scrolling__right {
     margin-left: -5px;
     display: block;
-    background-image: url(../img/scroll_right.svg);
+    background-image: url(../images/scroll_right.svg);
     width: 48px;
     height: 13px;
     cursor: pointer; }
     .post-scrolling__right:hover {
-      background-image: url(../img/right_hover.svg); }
+      background-image: url(../images/right_hover.svg); }
   .post-scrolling__change {
     font-family: "Din", sans-serif;
     font-size: 16px;
