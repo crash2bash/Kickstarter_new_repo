@@ -55,10 +55,10 @@
       transform: translate(-100%, -50%);
       width: 13px;
       height: 13px;
-      background-image: url(../img/cross_icon.png);
+      background-image: url(../images/cross_icon.png);
 
       @media (min-width: $tablet-width) {
-        background-image: url(../img/arrow-back.png);
+        background-image: url(../images/arrow-back.png);
         left: 0;
         top: 30%;
         transform: translate(0, -30%);
@@ -121,7 +121,7 @@
   }
 
   &__title {
-    font-family: $ff-dbold;
+    font-family: "Din Bold", sans-serif;
     font-size: 36px;
     line-height: 45px;
     margin-bottom: 20px;
@@ -130,19 +130,18 @@
     @media (min-width: $tablet-width) {
       font-size: 48px;
       line-height: 60px;
-      margin: 0;
-      margin-bottom: 20px;
+      margin: 0 0 20px;
     }
   }
 
   &__price {
-    font-family: $ff-d;
+    font-family: "Din", sans-serif;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
 
     @media (min-width: $tablet-width) {
-      font-family: $ff-dbold;
+      font-family: "Din Bold", sans-serif;
       line-height: 36px;
       margin: 0;
       margin-bottom: 54px;
@@ -153,7 +152,7 @@
     }
   }
 
-  &__img {
+  &__images {
     width: 194px;
     height: 194px;
     display: block;
@@ -211,7 +210,7 @@
     height: 32px;
     box-sizing: border-box;
 
-    background-image: url(/img/silver.svg);
+    background-image: url(../images/silver.svg);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -224,19 +223,19 @@
     }
 
     &--grey {
-      background-image: url(/img/grey.svg);
+      background-image: url(../images/grey.svg);
     }
 
     &--bronze {
-      background-image: url(/img/bronze.svg);
+      background-image: url(../images/bronze.svg);
     }
 
     &--gold {
-      background-image: url(/img/gold.svg);
+      background-image: url(../images/gold.svg);
     }
 
     &--space {
-      background-image: url(/img/space.svg);
+      background-image: url(../images/space.svg);
     }
   }
 
@@ -244,7 +243,7 @@
     width: 240px;
     margin: 0 auto;
 
-    font-family: $ff-hmedium;
+    font-family: "Helvetica Medium", sans-serif;
     font-size: 12px;
     line-height: 18px;
 
@@ -284,7 +283,7 @@
     width: 12px;
     padding: 18px;
 
-    background-image: url(../img/minus_disable.png);
+    background-image: url(../images/minus_disable.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -295,7 +294,7 @@
     width: 12px;
     padding: 18px;
 
-    background-image: url(../img/plus_active.png);
+    background-image: url(../images/plus_active.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -327,7 +326,7 @@
     &::before {
       content: "";
       position: absolute;
-      background-image: url(../img/shipping.png);
+      background-image: url(../images/shipping.png);
       width: 44px;
       height: 22px;
       top: -5%;
@@ -336,7 +335,7 @@
     }
 
     @media (min-width: $tablet-width) {
-      font-family: $ff-hmedium;
+      font-family: "Helvetica Medium", sans-serif;
       font-size: 16px;
       line-height: 20px;
       margin-left: 100px;

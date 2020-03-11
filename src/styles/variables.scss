@@ -5,19 +5,6 @@ $mobile-content-width: 260px;
 $tablet-content-width: 700px;
 $desktop-content-width: 1194px;
 
-$ff-h: "Helvetica";
-$ff-hmedium: "Helvetica Medium";
-$ff-hlight: "Helvetica Light";
-$ff-db: "Din Black";
-$ff-dbold: "Din Bold";
-$ff-d: "Din";
-$fs: 14px;
-$fs-desktop: 64px;
-$fs-b: 37px;
-$lh: 21px;
-$lh-desktop: 83px;
-$lh-b: 55px;
-
 $text-color: #333;
 
 @mixin reset {
@@ -31,7 +18,6 @@ $text-color: #333;
 }
 
 @mixin centeredItemsInGridTablet {
-  margin: 0;
-  margin-right: 19px;
+  margin: 0 19px 0 0;
   justify-self: end;
 }

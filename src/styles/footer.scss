@@ -44,14 +44,14 @@
   }
 
   &__rights {
-    font-family: $ff-hlight;
+    font-family: "Helvetica Light", sans-serif;
     text-align: center;
-    font-size: $fs - 2;
+    font-size: 12px;
 
     color: #bdbdbd;
 
     @media (min-width: $tablet-width) {
-      font-size: $fs;
+      font-size: 14px;
     }
   }
 }

@@ -7,9 +7,9 @@
   border: none;
   padding: 10px;
 
-  font-family: $ff-hmedium;
-  font-size: $fs - 2;
-  line-height: $lh - 6;
+  font-family: "Helvetica Medium", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
 
   text-transform: uppercase;
   text-decoration: none;
@@ -72,7 +72,7 @@
     width: 108px;
     height: 108px;
 
-    font-family: $ff-d;
+    font-family: "Din", sans-serif;
 
     background-color: transparent;
     border-radius: 50%;
@@ -242,7 +242,7 @@
       display: block;
       width: 24px;
       height: 16px;
-      background-image: url(../img/button-buy.svg);
+      background-image: url(../images/button-buy.svg);
     }
 
     &:hover {
@@ -265,7 +265,7 @@
     height: 20px;
     padding: 40px;
 
-    background-image: url(../img/arrow-up.svg);
+    background-image: url(../images/arrow-up.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;

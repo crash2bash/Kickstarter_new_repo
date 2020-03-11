@@ -23,40 +23,40 @@
 @import "visually-hidden";
 
 @font-face {
-  font-family: $ff-h;
+  font-family: "Helvetica";
   src: url("/fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: $ff-hlight;
+  font-family: "Helvetica Light";
   src: url("/fonts/HelveticaNeueCyr-Light.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: $ff-hmedium;
+  font-family: "Helvetica Medium";
   src: url("/fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: $ff-d;
+  font-family: "Din";
   src: url("/fonts/DINPro-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: $ff-dbold;
+  font-family: "Din Bold";
   src: url("/fonts/DINPro-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: $ff-db;
+  font-family: "Din Black";
   src: url("/fonts/DINPro-Black.woff2") format("woff2");
 }
 
 html {
-  font-family: $ff-h;
+  font-family: "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 21px;
-  color: "Helvetica";
+  color: $text-color;
 }
 
 body {

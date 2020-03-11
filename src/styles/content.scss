@@ -41,12 +41,13 @@
     }
 
     @media (min-width: $desktop-width) {
-      margin: 0;
-      margin-bottom: -10px;
+      position: relative;
       align-self: end;
       grid-row-end: 3;
       width: 939px;
       height: 464px;
+      margin-top: -70px;
+      margin-left: 0;
       z-index: -1;
     }
   }
@@ -54,7 +55,7 @@
   &__title {
     margin: 0 0 23px;
 
-    font-family: $ff-db;
+    font-family: "Din Black", sans-serif;
     font-size: 44px;
     line-height: 57px;
 
@@ -66,14 +67,14 @@
       grid-column-start: 1;
       grid-row-start: 1;
       margin: 0;
-      font-size: $fs-b + 11;
-      line-height: $lh-b + 7;
+      font-size: 48px;
+      line-height: 62px;
       text-align: left;
     }
 
     @media (min-width: $desktop-width) {
-      font-size: $fs-desktop;
-      line-height: $lh-desktop;
+      font-size: 64px;
+      line-height: 83px;
     }
   }
 
@@ -81,8 +82,8 @@
     width: $mobile-content-width;
     margin: 0 auto 187px;
 
-    font-size: $fs + 2;
-    line-height: $lh + 3;
+    font-size: 16px;
+    line-height: 24px;
 
     text-align: center;
     color: $text-color;

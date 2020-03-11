@@ -58,13 +58,13 @@
   &__title {
     margin: 0 0 51px;
 
-    font-family: $ff-dbold;
-    font-size: $fs-b;
+    font-family: "Din Bold", sans-serif;
+    font-size: 37px;
     text-transform: uppercase;
 
     @media (min-width: $tablet-width) {
-      font-size: $fs-b + 19;
-      line-height: $lh-b + 15;
+      font-size: 56px;
+      line-height: 70px;
       margin: 0 0 50px 50px;
     }
 
@@ -92,21 +92,21 @@
 
   &__item-title {
     margin-bottom: 20px;
-    font-family: $ff-d;
-    font-size: $fs-b - 7;
-    line-height: $lh + 11;
+    font-family: "Din", sans-serif;
+    font-size: 30px;
+    line-height: 32px;
     text-transform: uppercase;
 
     color: #0c797a;
 
     @media (min-width: $tablet-width) {
-      font-size: $fs-b - 3;
-      line-height: $lh * 2;
+      font-size: 34px;
+      line-height: 42px;
       margin: 0 0 38px;
     }
 
     @media (min-width: $desktop-width) {
-      line-height: $lh-b - 14;
+      line-height: 41px;
     }
 
     &--outer {
@@ -117,7 +117,7 @@
   }
 
   &__inner-list {
-    font-family: $ff-hmedium;
+    font-family: "Helvetica Medium", sans-serif;
     padding: 0;
     margin-left: 15px;
     list-style: disc;
@@ -177,13 +177,13 @@
     margin-bottom: 10px;
 
     @media (min-width: $tablet-width) {
-      font-family: $ff-h;
-      font-size: $fs + 2;
-      line-height: $lh - 2;
+      font-family: "Helvetica", sans-serif;
+      font-size: 16px;
+      line-height: 19px;
     }
 
     @media (min-width: $desktop-width) {
-      line-height: $lh + 3;
+      line-height: 24px;
     }
   }
 
