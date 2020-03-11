@@ -68,6 +68,15 @@
     position: relative;
   }
 
+  &__caption {
+    position: absolute;
+    background-image: url(../images/linetechnology.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 205px;
+    height: 173px;
+  }
+
   &__details {
     position: absolute;
     width: 48px;
@@ -98,12 +107,6 @@
       height: 11px;
 
       background-image: url(../images/cross_button.svg);
-      background-position: center;
-    }
-
-    &--active {
-      background-image: url(../images/linetechnology.svg);
-      background-repeat: no-repeat;
       background-position: center;
     }
 
