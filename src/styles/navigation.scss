@@ -3,7 +3,7 @@
 .navigation {
   display: none;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     width: 786px;
     display: block;
     margin: 0 auto;
