@@ -10,35 +10,9 @@ const advantagesMultiroom = document.querySelector('.advantages__list'
   + '-item--multiroom');
 const advantagesLighting = document.querySelector('.advantages__list'
   + '-item--lighting');
-const advantagesSlider = document.querySelector('#advantages_slider');
 let postValue = parseInt(document.querySelector('.post-scrolling'
   + '__change').innerHTML.charAt(1));
 const changeValue = document.querySelector('.post-scrolling__change');
-let touchstartX;
-// eslint-disable-next-line no-unused-vars
-let touchstartY;
-let touchendX = 0;
-// eslint-disable-next-line no-unused-vars
-let touchendY = 0;
-
-advantagesSlider.addEventListener('touchstart', function(e) {
-  touchstartX = e.changedTouches[0].screenX;
-  touchstartY = e.changedTouches[0].screenY;
-}, false);
-
-advantagesSlider.addEventListener('touchend', function(e) {
-  touchendX = e.changedTouches[0].screenX;
-  touchendY = e.changedTouches[0].screenY;
-  handleSlider();
-}, false);
-
-function handleSlider() {
-  if ((touchendX < touchstartX) && (touchstartX > 360)) {
-    slideRight();
-  } else if ((touchendX > touchstartX) && (touchendX > 360)) {
-    slideLeft();
-  }
-}
 
 rightButton.addEventListener('click', function() {
   slideRight();
