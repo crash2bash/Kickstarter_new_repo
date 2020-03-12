@@ -37,6 +37,15 @@
     .footer__socials--outer {
       margin-bottom: 36px; } }
 
+.footer__facebook-img:hover path {
+  fill: #4267b2; }
+
+.footer__twitter-img:hover path {
+  fill: #64a8f2; }
+
+.footer__instagram-img:hover path {
+  fill: url(#paint0_linear); }
+
 .footer__rights {
   font-family: "Helvetica Light", sans-serif;
   text-align: center;

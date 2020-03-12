@@ -21,6 +21,14 @@ closeButton.addEventListener('click', function() {
   closeButton.classList.remove('show-in');
 });
 
+window.addEventListener('resize', function() {
+  const clientWidth = document.body.clientWidth;
+
+  if (clientWidth > 767) {
+    closeButton.classList.remove('show-in');
+  }
+});
+
 buyButton.addEventListener('click', function() {
   shippingPage.classList.add('cart--buy');
 });
