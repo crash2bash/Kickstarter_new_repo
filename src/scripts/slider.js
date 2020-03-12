@@ -10,8 +10,10 @@ const advantagesMultiroom = document.querySelector('.advantages__list'
   + '-item--multiroom');
 const advantagesLighting = document.querySelector('.advantages__list'
   + '-item--lighting');
+
 let postValue = parseInt(document.querySelector('.post-scrolling'
   + '__change').innerHTML.charAt(1));
+
 const changeValue = document.querySelector('.post-scrolling__change');
 
 rightButton.addEventListener('click', function() {
