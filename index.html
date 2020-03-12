@@ -222,7 +222,7 @@
               <li class="feautures__inner-list-item">Auto Music Playback from Last Song Stopped</li>
             </ul>
           </li>
-          <li class="feautures__list-item feautures__list-item--grid-second">
+          <li class="feautures__list-item feautures__list-item--grid-second scroll">
             <h3 class="feautures__item-title feautures__item-title--outer">Connectivity</h3>
             <ul class="feautures__inner-list">
               <li class="feautures__inner-list-item">Hands Free Wireless Audio</li>
@@ -233,7 +233,7 @@
               <li class="feautures__inner-list-item">Powerful MESHNET Multi Speaker Network</li>
             </ul>
           </li>
-          <li class="feautures__list-item feautures__list-item--grid-third">
+          <li class="feautures__list-item feautures__list-item--grid-third scroll">
             <h3 class="feautures__item-title feautures__item-title--outer">App Features</h3>
             <ul class="feautures__inner-list">
               <li class="feautures__inner-list-item">Customize Music Schedule</li>
@@ -245,11 +245,12 @@
         </ul>
         <div class="post-scrolling post-scrolling--feautures">
           <div class="post-scrolling__nav">
-            <span class="post-scrolling__left"></span>
-            <span class="post-scrolling__right"></span>
+            <span class="post-scrolling__left" id="feautures__left-arrow"></span>
+            <span class="post-scrolling__right" id="feautures__right-arrow"></span>
           </div>
           <div class="post-scrolling__status">
-            <span class="post-scrolling__change">01</span><span class="post-scrolling__static"> / 03</span>
+            <span class="post-scrolling__change" id="post-scrolling__change">01</span>
+            <span class="post-scrolling__static" id="feautures-status"> / 03</span>
           </div>
         </div>
       </div>
@@ -265,7 +266,7 @@
     <section class="question question--outer">
       <div class="question__container question__container--outer container">
         <h2 class="question__title">DO YOU HAVE ANY QUESTIONS?</h2>
-        <form action="GET" class="question__form">
+        <form method="get" action="#" class="question__form">
           <input type="email"
                  class="question__form-input question__form-input--email"
                  placeholder="Your email"
@@ -357,6 +358,7 @@
 
   <script src="./scripts/main.js"></script>
   <script src="./scripts/slider.js"></script>
+  <script src="./scripts/slider-feautures.js"></script>
   <script src="./scripts/video.js"></script>
   <script src="./scripts/technologies.js"></script>
 </body>
