@@ -337,7 +337,7 @@
 
 .navigation {
   display: none; }
-  @media (min-width: 1440px) {
+  @media (min-width: 768px) {
     .navigation {
       width: 786px;
       display: block;
