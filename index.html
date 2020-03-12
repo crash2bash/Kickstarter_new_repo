@@ -44,11 +44,11 @@
   <main>
     <section class="main-content content content--outer">
 
-      <picture>
+      <picture class="content__image">
         <source media="(min-width: 1440px)" srcset="./images/speaker_large.png">
         <source media="(min-width: 768px)" srcset="./images/speaker_medium.png">
         <source media="(min-width: 320px)" srcset="./images/speaker_mobile.png">
-        <img src="./images/speaker_large.png" class="content__image" alt="Our technology">
+        <img src="./images/speaker_large.png" alt="Our technology">
       </picture>
       <h1 class="content__title">Futuristic Wireless Speaker</h1>
       <p class="content__text">
@@ -147,15 +147,12 @@
     <section class="about-us">
       <div class="about-us__container">
         <h2 class="about-us__title">DESIGNED FOR THE FUTURE</h2>
-        <img class="about-us__img"
-             srcset="./images/aboutus.jpg 320w,
-                     ./images/aboutus_medium.jpg 768w,
-                     ./images/aboutus_large.jpg 1440w"
-              sizes="(max-width: 320px) 259px,
-                     (max-width: 768px) 374px,
-                     (max-width: 1440px) 582px"
-              src="./images/aboutus.jpg"
-              alt="Design">
+        <picture class="about-us__img">
+          <source media="(min-width: 1440px)" srcset="./images/aboutus_large.jpg">
+          <source media="(min-width: 768px)" srcset="./images/aboutus_medium.jpg">
+          <source media="(min-width: 320px)" srcset="./images/aboutus.jpg">
+          <img src="./images/aboutus_large.jpg" alt="Design">
+        </picture>
         <p class="about-us__text">
           In 2014, a group of geeky industrial designers, engineering veterans and acoustic experts formed crazybaby.
           This is a bunch of passionate people who are crazy enough to think they can challenge the industry with
@@ -256,15 +253,14 @@
           </div>
         </div>
       </div>
-      <img class="feautures__image"
-           srcset="./images/feautures.jpg 320w,
-           ./images/feautures_medium.jpg 768w,
-           ./images/feautures_large.jpg 1440w"
 
-           sizes="(max-width: 320px) 320px,
-           (max-width: 768px) 586px,
-           (max-width: 1440px) 786px"
-           src="./images/feautures.png" alt="Feautures">
+      <picture class="feautures__image">
+        <source media="(min-width: 1440px)" srcset="./images/feautures_large.jpg">
+        <source media="(min-width: 768px)" srcset="./images/feautures_medium.jpg">
+        <source media="(min-width: 320px)" srcset="./images/feautures.jpg">
+        <img src="./images/feautures_large.jpg" alt="Feautures">
+      </picture>
+
     </section>
     <section class="question question--outer">
       <div class="question__container question__container--outer container">
