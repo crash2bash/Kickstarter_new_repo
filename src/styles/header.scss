@@ -74,7 +74,8 @@
   position: absolute;
   top: 68px;
   left: 0;
-  width: 320px;
+  min-width: 320px;
+  width: 100%;
   text-align: center;
 
   list-style: none;

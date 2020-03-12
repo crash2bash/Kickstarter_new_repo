@@ -42,6 +42,18 @@
     }
   }
 
+  &__facebook-img:hover path {
+    fill: #4267b2;
+  }
+
+  &__twitter-img:hover path {
+    fill: #64a8f2;
+  }
+
+  &__instagram-img:hover path {
+    fill: url(#paint0_linear);
+  }
+
   &__rights {
     font-family: "Helvetica Light", sans-serif;
     text-align: center;

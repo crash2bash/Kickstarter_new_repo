@@ -264,8 +264,8 @@
     display: none;
     position: fixed;
     z-index: 3;
-    top: 80%;
-    left: 80%;
+    top: 83%;
+    right: 70%;
     width: 24px;
     height: 20px;
     padding: 40px;
@@ -276,6 +276,11 @@
     background-color: transparent;
 
     cursor: pointer;
+
+    @media (min-width: $tablet-width) {
+      top: 80%;
+      left: 80%;
+    }
 
     &:hover {
       animation: rubberBand 0.75s;

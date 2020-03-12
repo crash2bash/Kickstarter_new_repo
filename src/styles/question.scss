@@ -1,5 +1,4 @@
 @import "variables";
-@import "container";
 
 .question {
   margin-bottom: 100px;
@@ -95,7 +94,11 @@
   }
 
   &__container {
+    width: $mobile-content-width;
+    margin: 0 auto;
+
     @media (min-width: $tablet-width) {
+      width: $tablet-content-width;
       display: grid;
       grid-template-columns: repeat(2, 384px);
     }
