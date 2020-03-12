@@ -410,13 +410,21 @@
         height: 546px; } }
   .technology__details-container {
     position: relative; }
-  .technology__caption {
+  .technology__caption-line {
+    display: none;
     position: absolute;
+    width: 205px;
+    height: 173px;
+    top: 325px;
+    left: 615px;
     background-image: url(../images/linetechnology.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    width: 205px;
-    height: 173px; }
+    background-position: center; }
+  .technology__caption-text {
+    display: none;
+    position: absolute;
+    top: 470px;
+    left: 615px; }
   .technology__details {
     position: absolute;
     width: 48px;
@@ -441,6 +449,8 @@
       height: 11px;
       background-image: url(../images/cross_button.svg);
       background-position: center; }
+    .technology__details--active {
+      position: relative; }
     .technology__details--first {
       top: 105px;
       left: 35px; }
