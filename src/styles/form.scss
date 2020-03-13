@@ -1,0 +1,75 @@
+@import "variables";
+
+.form {
+
+  &__input {
+    box-sizing: border-box;
+    width: 260px;
+    height: 47px;
+    padding: 5px;
+
+    font-family: "Helvetica Medium", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+
+    @media (min-width: $tablet-width) {
+      width: 340px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 378px;
+    }
+
+    &:focus,
+    &:active {
+      border-color: #0c797a;
+    }
+
+    &::placeholder {
+      font-family: "Helvetica", sans-serif;
+
+      font-size: 12px;
+      line-height: 14px;
+
+      color: #7c7c7c;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+
+    &--outer {
+      margin-bottom: 29px;
+    }
+
+    &--outer-last {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__link {
+    font-family: "Helvetica Medium", sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4f4f4f;
+
+    @media (min-width: $tablet-width) {
+      font-family: "Helvetica", sans-serif;
+      line-height: 14px;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

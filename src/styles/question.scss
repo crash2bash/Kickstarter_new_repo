@@ -1,0 +1,116 @@
+@import "variables";
+
+.question {
+  margin-bottom: 100px;
+
+  &__outer {
+    @media (min-width: $tablet-width) {
+      margin-bottom: 130px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-bottom: 142px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: "Din Bold", sans-serif;
+    font-size: 37px;
+    line-height: 46px;
+
+    @media (min-width: $tablet-width) {
+      margin: 0;
+      width: 340px;
+      justify-self: center;
+
+      font-size: 56px;
+      line-height: 70px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 480px;
+      line-height: 72px;
+    }
+  }
+
+  &__form-input {
+    width: 260px;
+    box-sizing: border-box;
+    border: 1px solid #828282;
+
+    background-color: #f7f7f7;
+
+    @media (min-width: $tablet-width) {
+      width: 340px;
+      height: 201px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 438px;
+      height: 128px;
+    }
+  }
+
+  &__form-input::placeholder {
+    color: #b2b2b2;
+  }
+
+  &__form-input--email {
+    height: 48px;
+    margin-bottom: 19px;
+    padding: 0 30px;
+
+    font-size: 16px;
+    line-height: 19px;
+    outline: none;
+
+    &:valid {
+      border: 1px solid #0c797a;
+    }
+
+    &:invalid:focus {
+      border: 1px solid #eb5757;
+    }
+
+    @media (min-width: $tablet-width) {
+      height: 48px;
+    }
+
+    @media (min-width: $desktop-width) {
+      height: 48px;
+    }
+  }
+
+  &__message {
+    height: 128px;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 16px 30px;
+
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__container {
+    width: $mobile-content-width;
+    margin: 0 auto;
+
+    @media (min-width: $tablet-width) {
+      width: $tablet-content-width;
+      display: grid;
+      grid-template-columns: repeat(2, 384px);
+    }
+
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
+      grid-template-columns: 480px 438px;
+      gap: 0 102px;
+
+      &--outer {
+        margin-left: 225px;
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@import "variables";
+
+.footer {
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 50px;
+  }
+
+  &__logo-link {
+    display: none;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+      text-align: center;
+    }
+
+    &--outer {
+      @media (min-width: $tablet-width) {
+        margin-bottom: 65px;
+      }
+    }
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @include reset;
+    margin: 0 auto 23px;
+    list-style: none;
+
+    @media (min-width: $tablet-width) {
+      width: 140px;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    &--outer {
+      @media (min-width: $tablet-width) {
+        margin-bottom: 36px;
+      }
+    }
+  }
+
+  &__facebook-img:hover path {
+    fill: #4267b2;
+  }
+
+  &__twitter-img:hover path {
+    fill: #64a8f2;
+  }
+
+  &__instagram-img:hover path {
+    fill: url(#paint0_linear);
+  }
+
+  &__rights {
+    font-family: "Helvetica Light", sans-serif;
+    text-align: center;
+    font-size: 12px;
+
+    color: #bdbdbd;
+
+    @media (min-width: $tablet-width) {
+      font-size: 14px;
+    }
+  }
+}

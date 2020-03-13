@@ -1,0 +1,149 @@
+@import "variables";
+
+.header {
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+
+  &__container {
+    width: $mobile-content-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto 22px;
+
+    @media (min-width: $tablet-width) {
+      width: 700px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
+    }
+  }
+
+  &__logo-link {
+    z-index: 2;
+    @media (min-width: $tablet-width) {
+      line-height: 0;
+    }
+  }
+
+  &__logo {
+    padding: 28px 0 22px;
+  }
+
+  &__sandwich {
+    display: block;
+    box-sizing: border-box;
+    width: 24px;
+    height: 14px;
+
+    background-image: url(../images/sandwhich.svg);
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
+
+  &__close {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 27px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 24px;
+    height: 14px;
+
+    background-image: url(../images/cross_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
+}
+
+.header-list {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  min-width: 320px;
+  width: 100%;
+  text-align: center;
+
+  list-style: none;
+  padding: 0;
+  background-color: #f7f7f7;
+
+  @media (min-width: $tablet-width) {
+    position: static;
+    width: 253px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+
+    &__item:not(:first-child) {
+      margin-left: 27px;
+
+      @media (min-width: $desktop-width) {
+        margin-left: 37px;
+      }
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 276px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 13px;
+  }
+
+  &__item {
+    margin: 20px 0;
+
+    @media (min-width: $tablet-width) {
+      margin: 0;
+    }
+
+    &--none {
+      display: none;
+
+      @media (min-width: $tablet-width) {
+        display: block;
+      }
+    }
+  }
+
+  &__link {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4f4f4f;
+
+    &--active-lang {
+      @media (min-width: $tablet-width) {
+        color: #333;
+        line-height: 18px;
+      }
+    }
+
+    &--deactive-lang {
+      color: #d0d0d0;
+
+      @media (min-width: $tablet-width) {
+        color: #bdbdbd;
+        line-height: 18px;
+      }
+    }
+  }
+}

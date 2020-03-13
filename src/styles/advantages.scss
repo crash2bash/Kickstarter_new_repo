@@ -1,0 +1,116 @@
+@import "variables";
+
+.advantages {
+  margin-bottom: 89px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 130px;
+  }
+
+  &__container {
+    @include mc-width;
+
+    @media (min-width: $tablet-width) {
+      width: $tablet-content-width;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: $desktop-content-width;
+    }
+  }
+
+  &__list {
+    @include reset;
+    margin-bottom: 35px;
+
+    list-style: none;
+
+    @media (min-width: $tablet-width) {
+      display: grid;
+      grid-template-columns: 340px 340px;
+      gap: 155px 20px;
+    }
+
+    @media (min-width: $desktop-width) {
+      grid-template-columns: repeat(4, 276px);
+      gap: 0 30px;
+    }
+  }
+
+  &__list-item {
+    position: relative;
+    margin-bottom: 50px;
+
+    &::before {
+      position: absolute;
+      content: "";
+
+      background-image: url(../images/futuristic_design.svg);
+      width: 58px;
+      height: 46px;
+
+      margin-top: -90px;
+      left: 42%;
+    }
+
+    &--speaker::before {
+      background-image: url(../images/speaker.svg);
+    }
+
+    &--multiroom::before {
+      background-image: url(../images/multiroom.svg);
+    }
+
+    &--lighting::before {
+      background-image: url(../images/lighting.svg);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: $tablet-width) {
+      display: grid;
+      grid-template-rows: 30px 105px;
+      gap: 20px 0;
+      margin: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      display: grid;
+      grid-template-rows: 30px 126px;
+      gap: 50px 0;
+    }
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 50px;
+
+    font-family: "Din", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-color;
+
+    @media (min-width: $tablet-width) {
+      // margin: 0 0 20px 0;
+      margin: 0;
+    }
+
+    @media (min-width: $tablet-width) {
+      margin: 0;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    color: #7c7c7c;
+
+    @media (min-width: $tablet-width) {
+      margin: 0;
+    }
+  }
+}

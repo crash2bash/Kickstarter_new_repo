@@ -1,0 +1,53 @@
+@import "variables";
+
+.shipping {
+  width: 320px;
+
+  &--outer {
+    margin-bottom: 90px;
+
+    @media (min-width: $tablet-width) {
+      margin-bottom: 130px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-bottom: 150px;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
+
+  &__form {
+    width: $mobile-content-width;
+    margin: 0 auto;
+
+    @media (min-width: $tablet-width) {
+      width: 340px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 378px;
+    }
+  }
+
+  &__placeholder {
+    border: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    position: relative;
+    color: rgba(12, 121, 122, 0.3);
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.fake-placeholder {
+  opacity: 1;
+}

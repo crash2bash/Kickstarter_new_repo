@@ -1,0 +1,23 @@
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$mobile-content-width: 260px;
+$tablet-content-width: 700px;
+$desktop-content-width: 1194px;
+
+$text-color: #333;
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin mc-width {
+  width: $mobile-content-width;
+  margin: 0 auto;
+}
+
+@mixin centeredItemsInGridTablet {
+  margin: 0 19px 0 0;
+  justify-self: end;
+}

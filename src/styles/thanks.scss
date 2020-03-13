@@ -1,0 +1,86 @@
+@import "variables";
+
+.thanks {
+  width: 320px;
+
+  background-image: url(../images/thamks.svg);
+  background-position: center;
+  background-size: cover;
+
+  @media (min-width: $tablet-width) {
+    width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
+
+  &__container {
+    margin: 0 auto;
+    padding: 87px 0 90px;
+
+    @media (min-width: $tablet-width) {
+      padding: 265px 0 230px;
+    }
+
+    @media (min-width: $desktop-width) {
+      padding: 215px 0 193px;
+    }
+  }
+
+  &__title {
+    width: 260px;
+    margin: 0 auto 30px;
+    text-align: center;
+
+    font-size: 48px;
+    line-height: 73px;
+
+    color: #0c797a;
+
+    @media (min-width: $tablet-width) {
+      width: 520px;
+
+      font-size: 72px;
+      line-height: 80px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 582px;
+
+      line-height: 128px;
+    }
+  }
+
+  &__text {
+    width: 260px;
+    margin: 0 auto 50px;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    @media (min-width: $tablet-width) {
+      width: 514px;
+
+      font-size: 18px;
+      line-height: 27px;
+    }
+
+    @media (min-width: $desktop-width) {
+      font-size: 16px;
+    }
+
+    &--bold {
+      margin-bottom: 15px;
+
+      font-family: "Helvetica Medium", sans-serif;
+      line-height: 30px;
+
+      @media (min-width: $tablet-width) {
+        font-size: 16px;
+        line-height: 36px;
+      }
+    }
+  }
+}

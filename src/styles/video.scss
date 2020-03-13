@@ -1,0 +1,36 @@
+@import "variables";
+
+.video {
+  position: relative;
+
+  &--outer {
+    margin-bottom: 89px;
+  }
+
+  &__link {
+    cursor: auto;
+  }
+
+  &__container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .video {
+
+    &--outer {
+      margin-bottom: 130px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video {
+
+    &--outer {
+      margin-bottom: 150px;
+    }
+  }
+}
